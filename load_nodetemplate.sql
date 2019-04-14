@@ -1,0 +1,5 @@
+INSERT INTO nodetemplate VALUES
+('WordpressVM','2147483647','1','os','dsg@openstack','000001920','a82e054f-4f01-49f9-bc4c-77a98045739c',null,null,null,null,null,'WordpressNode','HOSTON',null,null,null,null),
+('WordpressNode','1','1','software',null,null,null,null,'mysql_node_requirement','CONNECTTO','WordpressVM','HOSTON',null,null,'Artifact_93f8753b-17ab-43c5-8f11-e3ec98fe3224','salsa:sh','Artifact_93f8753b-17ab-43c5-8f11-e3ec98fe3224','https://github.com/tuwiendsg/SALSA'),
+('MySQLVM','2147483647','1','os','dsg@openstack','000001920','a82e054f-4f01-49f9-bc4c-77a98045739c',null,null,null,null,null,'MySQLNode','HOSTON',null,null,null,null),
+('MySQLNode','1','1','software',null,null,null,null,'MySQLVM','HOSTON',null,null,'mysql_node_capability','CONNECTTO','Artifact_93f8753b-17ab-43c5-8f11-e3ec98fe3224','salsa:sh','Artifact_93f8753b-17ab-43c5-8f11-e3ec98fe3224','https://github.com/tuwiendsg/SALSA');
